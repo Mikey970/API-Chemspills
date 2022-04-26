@@ -1,38 +1,39 @@
-.App {
+.topbar {
   text-align: center;
+  border-bottom: 3px solid black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-image: url("https://wallpapercave.com/wp/wp4639607.png");
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.next {
+  margin-top: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.card {
+  font-size: large;
+  font-weight: bolder;
+}
+.spillButton {
+  width: 40vh;
+  height: 6vh;
+  background-color: black;
   color: white;
+  border: 3px solid white;
 }
+.maincontain {
+  font-family: "Chakra Petch", sans-serif;
+  margin-top: 5vh;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70vh;
+  width: 60vh;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 3px;
 }
